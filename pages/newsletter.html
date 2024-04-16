@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter</title>
+    <style>
+        body {
+        background-color: darkgoldenrod;
+      }
+
+      .menuitem {
+        color: black;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li><a class="menuitem" href="../index.html">Home</a></li>
+        <li><a class="menuitem" href="about.html">About Us</a></li>
+        <li><a class="menuitem" href="products.html">Products</a></li>
+        <li><a class="menuitem" href="stock.html">Stock</a></li>
+        <li><a class="menuitem" href="newsletter.html">Hírlevél</a></li>
+        <li><a class="menuitem" href="registration.html">Regisztráció</a></li>
+      </ul>
+    </div>
+    <h2>Feliratkozás hírlevelünkre</h2>
+    <form>
+      <label for="first_name">Keresztnév</label>
+      <input type="text" name="f_name" id="first_name" />
+      <label for="last_name">Vezetéknév</label>
+      <input type="text" name="l_name" id="last_name" />
+      <label for="email">Email</label>
+      <input type="text" name="email" id="email" />
+      <input type="checkbox" id="email" name="email" value="email" />
+      <label for="subs_tick">Szeretnék feliratkozni a hírlevélre</label>
+      <input class="button" type="submit" value="Feliratkozás"/>
+    </form>
+  </body>
+</html>
