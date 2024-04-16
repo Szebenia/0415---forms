@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock</title>
+    <style>
+      body {
+        background-color: darkgoldenrod;
+      }
+
+      .menuitem {
+        color: black;
+      }
+
+      .prouctitem {
+        color: black;
+        font-size: 30px;
+        font-weight: 900;
+      }
+
+      .product-type {
+        color: black;
+        font-size: 30px;
+        text-decoration: underline;
+      }
+
+      #pricesheet {
+        position: absolute;
+        top: 200px;
+        left: 500px;
+      }
+
+      #types {
+        color: black;
+        font-weight: bold;
+        position: absolute;
+        top: 150px;
+        left: 100px;
+      }
+
+      #price {
+        color: blanchedalmond;
+        text-decoration: underline;
+      }
+
+      #price2 {
+        color: blanchedalmond;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li><a class="menuitem" href="../index.html">Home</a></li>
+        <li><a class="menuitem" href="about.html">About Us</a></li>
+        <li><a class="menuitem" href="products.html">Products</a></li>
+        <li><a class="menuitem" href="stock.html">Stock</a></li>
+      </ul>
+    </div>
+
+    <div>
+        <h2>Készleten:</h2>
+    </div>
+    <div id="pricesheet">
+      <table border="1" class="prouctitem">
+        <tr>
+          <th class="product-type">Típus</th>
+          <th class="product-type">Termék</th>
+          <th class="product-type">Készlet (db)</th>
+          <th id="price">Ár (Ft)</th>
+        </tr>
+        <tr>
+          <td>Sós</td>
+          <td>Kovászos kenyér</td>
+          <td>30</td>
+          <td id="price2">1600</td>
+        </tr>
+        <tr>
+          <td>Sós</td>
+          <td>Kifli</td>
+          <td>150</td>
+          <td id="price2">200</td>
+        </tr>
+        <tr>
+          <td>Sós</td>
+          <td>Zsömle</td>
+          <td>200</td>
+          <td id="price2">300</td>
+        </tr>
+        <tr>
+          <td>Édes</td>
+          <td>Kalács</td>
+          <td>50</td>
+          <td id="price2">2000</td>
+        </tr>
+        <tr>
+          <td>Édes</td>
+          <td>Kakós csiga</td>
+          <td>100</td>
+          <td id="price2">400</td>
+        </tr>
+        <tr>
+          <td>Édes</td>
+          <td>Túrós táska</td>
+          <td>100</td>
+          <td id="price2">500</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
